@@ -6,7 +6,7 @@ Link to phpmyadmin : http://104.236.230.244/phpmyadmin
 
 #gift_options.sql
 
-"""
+```
 
 CREATE TABLE IF NOT EXISTS `gift_options` (
   `itemId` int(32) NOT NULL,
@@ -21,12 +21,12 @@ CREATE TABLE IF NOT EXISTS `gift_options` (
   
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-"""
+```
 
 
 #image_entities.sql
 
-"""CREATE TABLE IF NOT EXISTS `image_entities` (
+```CREATE TABLE IF NOT EXISTS `image_entities` (
 
   `itemId` int(32) NOT NULL,
   
@@ -40,11 +40,11 @@ CREATE TABLE IF NOT EXISTS `gift_options` (
   
   PRIMARY KEY (`itemId`)
   
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;"""
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;```
 
-#market_place_price
+#market_place_price.sql
 
-"""CREATE TABLE IF NOT EXISTS `market_place_price` (
+```CREATE TABLE IF NOT EXISTS `market_place_price` (
 
   `itemId` int(32) NOT NULL,
   
@@ -64,11 +64,11 @@ CREATE TABLE IF NOT EXISTS `gift_options` (
   
   PRIMARY KEY (`itemId`)
   
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;"""
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;```
 
 #products.sql
 
-"""
+```
 CREATE TABLE IF NOT EXISTS `products` (
 
   `itemId` int(64) NOT NULL,
@@ -144,4 +144,4 @@ CREATE TABLE IF NOT EXISTS `products` (
   
   UNIQUE KEY `parentItemId` (`parentItemId`)
   
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;  """
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;  ```
