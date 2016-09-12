@@ -26,7 +26,8 @@ CREATE TABLE IF NOT EXISTS `gift_options` (
 
 #image_entities.sql
 
-```CREATE TABLE IF NOT EXISTS `image_entities` (
+```
+CREATE TABLE IF NOT EXISTS `image_entities` (
 
   `itemId` int(32) NOT NULL,
   
@@ -40,11 +41,13 @@ CREATE TABLE IF NOT EXISTS `gift_options` (
   
   PRIMARY KEY (`itemId`)
   
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;```
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
 
 #market_place_price.sql
 
-```CREATE TABLE IF NOT EXISTS `market_place_price` (
+```
+CREATE TABLE IF NOT EXISTS `market_place_price` (
 
   `itemId` int(32) NOT NULL,
   
@@ -64,7 +67,8 @@ CREATE TABLE IF NOT EXISTS `gift_options` (
   
   PRIMARY KEY (`itemId`)
   
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;```
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
 
 #products.sql
 
